@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barangay Caliguian - Burgos, Isabela</title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, serif;
+      background-color: #f4f1ec;
+      color: #2b2b2b;
+    }
+
+    /* ── MARQUEE ── */
+    .marquee-top {
+      background-color: #8b0000;
+      color: #fff;
+      padding: 8px 0;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 0;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 28px 20px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .seal-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 4px solid #c8a84b;
+      background-color: #2b2b2b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 11px;
+      color: #c8a84b;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      line-height: 1.4;
+    }
+
+    .header-text h1 {
+      font-size: 28px;
+      color: #c8a84b;
+      margin: 0 0 4px 0;
+      font-family: Georgia, serif;
+    }
+
+    .header-text h2 {
+      font-size: 14px;
+      color: #ccc;
+      font-weight: normal;
+      margin: 0 0 6px 0;
+      font-family: Arial, sans-serif;
+      letter-spacing: 2px;
+    }
+
+    .header-text p {
+      font-size: 12px;
+      color: #999;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background-color: #8b0000;
+      text-align: center;
+      padding: 0;
+      border-top: 3px solid #c8a84b;
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 11px 14px;
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    nav a:hover {
+      background-color: #6b0000;
+      color: #c8a84b;
+    }
+
+    /* ── HERO STRIP ── */
+    .hero-strip {
+      background-color: #2b2b2b;
+      color: #c8a84b;
+      text-align: center;
+      padding: 18px 20px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #c8a84b;
+    }
+
+    /* ── WRAPPER ── */
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 18px 50px;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      background-color: #ffffff;
+      border: 1px solid #d6cfc4;
+      border-top: 4px solid #8b0000;
+      padding: 26px 30px;
+      margin-bottom: 24px;
+    }
+
+    .section h2 {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #8b0000;
+      border-bottom: 1px solid #d6cfc4;
+      padding-bottom: 8px;
+      margin: 0 0 16px 0;
+    }
+
+    .section h3 {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 20px 0 10px 0;
+    }
+
+    .section p {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #444;
+      margin-bottom: 12px;
+    }
+
+    /* ── INFO TABLE ── */
+    table.info-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      margin-top: 10px;
+    }
+
+    table.info-table td {
+      padding: 9px 14px;
+      border: 1px solid #d6cfc4;
+    }
+
+    table.info-table td:first-child {
+      background-color: #f9f5ef;
+      font-weight: bold;
+      color: #8b0000;
+      width: 38%;
+    }
+
+    /* ── OFFICIALS TABLE ── */
+    table.officials-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      margin-top: 10px;
+    }
+
+    table.officials-table th {
+      background-color: #1a1a1a;
+      color: #c8a84b;
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    table.officials-table td {
+      padding: 9px 14px;
+      border: 1px solid #d6cfc4;
+      color: #333;
+    }
+
+    table.officials-table tr:nth-child(even) td {
+      background-color: #f9f5ef;
+    }
+
+    /* ── BLOCKQUOTE ── */
+    blockquote {
+      border-left: 4px solid #c8a84b;
+      background-color: #f9f5ef;
+      margin: 16px 0;
+      padding: 12px 20px;
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* ── FACILITY CARDS ── */
+    .facility-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .facility-card {
+      border: 1px solid #d6cfc4;
+      border-top: 3px solid #8b0000;
+      background-color: #f9f5ef;
+      padding: 14px 16px;
+      width: calc(50% - 6px);
+      font-family: Arial, sans-serif;
+    }
+
+    .facility-card h4 {
+      font-size: 13px;
+      color: #8b0000;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .facility-card p {
+      font-size: 13px;
+      color: #555;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* ── HOTLINE TABLE ── */
+    table.hotline-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      margin-top: 10px;
+    }
+
+    table.hotline-table th {
+      background-color: #8b0000;
+      color: white;
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    table.hotline-table td {
+      padding: 9px 14px;
+      border: 1px solid #d6cfc4;
+    }
+
+    table.hotline-table tr:nth-child(even) td {
+      background-color: #f9f5ef;
+    }
+
+    table.hotline-table td:last-child {
+      font-weight: bold;
+      color: #8b0000;
+      font-size: 15px;
+    }
+
+    /* ── GALLERY ── */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+      justify-content: center;
+    }
+
+    .gallery figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    .gallery img {
+      width: 260px;
+      height: 180px;
+      object-fit: cover;
+      border: 3px solid #1a1a1a;
+      padding: 3px;
+      background-color: #f9f5ef;
+      display: block;
+    }
+
+    .gallery figcaption {
+      font-size: 12px;
+      color: #8b0000;
+      margin-top: 5px;
+      font-style: italic;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ── MAP SECTION ── */
+    .map-container {
+      width: 100%;
+      border: 3px solid #1a1a1a;
+      margin-top: 14px;
+      overflow: hidden;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      display: block;
+    }
+
+    /* ── CONTACT TABLE ── */
+    table.contact-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+    }
+
+    table.contact-table td {
+      padding: 10px 14px;
+      border: 1px solid #d6cfc4;
+    }
+
+    table.contact-table td:first-child {
+      background-color: #f9f5ef;
+      font-weight: bold;
+      color: #8b0000;
+      width: 30%;
+    }
+
+    table.contact-table a {
+      color: #8b0000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    table.contact-table a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── BOTTOM MARQUEE ── */
+    .marquee-bottom {
+      background-color: #1a1a1a;
+      color: #c8a84b;
+      padding: 9px 0;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      letter-spacing: 1px;
+      border-top: 2px solid #c8a84b;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background-color: #1a1a1a;
+      color: #888;
+      text-align: center;
+      padding: 22px 20px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      border-top: 3px solid #8b0000;
+    }
+
+    footer strong {
+      color: #c8a84b;
+    }
+
+    /* TWO COLUMN LIST */
+    ul.two-col {
+      column-count: 2;
+      padding-left: 18px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      color: #444;
+      line-height: 1.9;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- TOP MARQUEE -->
+  <div class="marquee-top">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      &nbsp;&nbsp;&nbsp; 🏛️ OFFICIAL WEBPAGE — BARANGAY CALIGUIAN (POB.), BURGOS, ISABELA &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Region II — Cagayan Valley &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Population: 6,925 (2020 Census) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Serving the community with honor and dedication &nbsp;&nbsp;&nbsp; 🏛️
+    </marquee>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-inner">
+      <div class="seal-circle">
+  <img src="brgy_seal.jpg" alt="Barangay Seal"
+  style="width:90px; height:90px;
+  border-radius:50%; object-fit:cover;">
+</div>
+      <div class="header-text">
+        <h1>Barangay Caliguian</h1>
+        <h2>Poblacion &nbsp;·&nbsp; Burgos, Isabela &nbsp;·&nbsp; Region II</h2>
+        <p>Republic of the Philippines &nbsp;·&nbsp; Cagayan Valley Region</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#officials">Officials</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#schools">Schools</a>
+    <a href="#church">Church</a>
+    <a href="#demographics">Demographics</a>
+    <a href="#hotlines">Hotlines</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#map">Map</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- HERO STRIP -->
+  <div class="hero-strip">
+    ✦ &nbsp; Serving the People of Caliguian with Integrity and Dedication &nbsp; ✦
+  </div>
+
+  <div class="wrapper">
+
+    <!-- ABOUT -->
+    <div class="section" id="about">
+      <h2>About Barangay Caliguian</h2>
+
+      <p>
+        <strong>Barangay Caliguian</strong>, formerly known as <em>Poblacion</em>, is the
+        <strong>largest and most populous barangay</strong> in the Municipality of Burgos,
+        Province of Isabela, Philippines. It serves as the <mark>town center</mark> of Burgos —
+        the seat of the municipal government and the hub of commerce, education, and community life.
+      </p>
+
+      <br>
+
+      <p>
+        Located in the <strong>Cagayan Valley Region (Region II)</strong>, Caliguian is situated
+        at approximately <abbr title="Geographic Coordinates">17.0667° N, 121.6913° E</abbr>
+        in the island of Luzon. It is surrounded by the barangays of <em>Malasin</em> and other
+        neighboring communities of Burgos.
+      </p>
+
+      <br>
+
+      <p>
+        The barangay is primarily an <strong>agricultural community</strong>, with rice and corn
+        farming as the main economic activities. As the Poblacion, it also hosts commercial
+        establishments, government offices, and public institutions that serve the entire municipality.
+      </p>
+
+      <br>
+
+      <table class="info-table">
+        <tr>
+          <td>Official Name</td>
+          <td>Barangay Caliguian (Poblacion)</td>
+        </tr>
+        <tr>
+          <td>Former Name</td>
+          <td>Poblacion</td>
+        </tr>
+        <tr>
+          <td>Municipality</td>
+          <td>Burgos, Isabela</td>
+        </tr>
+        <tr>
+          <td>Province</td>
+          <td>Isabela</td>
+        </tr>
+        <tr>
+          <td>Region</td>
+          <td>Region II — Cagayan Valley</td>
+        </tr>
+        <tr>
+          <td>Coordinates</td>
+          <td>17.0667° N, 121.6913° E</td>
+        </tr>
+        <tr>
+          <td>Distance from Ilagan City</td>
+          <td>32 km northeast</td>
+        </tr>
+        <tr>
+          <td>Distance from Manila</td>
+          <td>approximately 413.54 km</td>
+        </tr>
+        <tr>
+          <td>Population (2020)</td>
+          <td><strong>6,925 residents</strong></td>
+        </tr>
+        <tr>
+          <td>Classification</td>
+          <td>Urban Barangay (Poblacion)</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <blockquote>
+        "Caliguian — where the heart of Burgos beats. From its people, its land, and its spirit,
+        this barangay continues to grow and serve its community with pride."
+      </blockquote>
+    </div>
+
+    <!-- HISTORY -->
+    <div class="section" id="history">
+      <h2>Brief History</h2>
+
+      <p>
+        The Municipality of <strong>Burgos</strong> was established on <strong>May 18, 1967</strong>
+        through <em>Republic Act No. 4877</em>, which separated specific barrios — including
+        <strong>Caliguian</strong> — from the neighboring municipalities of Gamu and Aurora to form
+        a new independent local government unit.
+      </p>
+
+      <br>
+
+      <p>
+        The town was named after the <strong>Ilocano martyr Fr. José Burgos</strong>, one of the
+        famous GOMBURZA martyrs of Philippine history. The majority of the population in Burgos,
+        including Caliguian, is composed of <em>Ilocanos</em>, reflecting a rich cultural heritage
+        deeply rooted in Northern Philippines tradition.
+      </p>
+
+      <br>
+
+      <p>
+        As the <strong>Poblacion</strong>, Caliguian has always been the initial seat of government
+        of Burgos. One significant milestone in its history was the establishment of the
+        <strong>Caliguian National High School</strong>, formalized through
+        <cite>Proclamation No. 550</cite> signed by President Corazon C. Aquino, which reserved
+        a parcel of public land specifically for the school.
+      </p>
+
+      <br>
+
+      <p>
+        Over the decades, Caliguian has grown from a small barrio into a
+        <del>quiet farming village</del> <ins>vibrant and progressive community</ins>
+        — from a population of <strong>5,506 in 1990</strong> to
+        <strong>6,925 in 2020</strong>, showing steady and consistent growth.
+      </p>
+    </div>
+
+    <!-- OFFICIALS -->
+    <div class="section" id="officials">
+      <h2>Barangay Officials</h2>
+
+      <p>
+        Barangay Caliguian is governed by duly elected officials who serve the
+        community under the <abbr title="Local Government Code of 1991">Republic Act 7160</abbr>.
+      </p>
+
+      <br>
+
+      <table class="officials-table">
+        <tr>
+          <th>Position</th>
+          <th>Name</th>
+          <th>Remarks</th>
+        </tr>
+        <tr>
+          <td>Punong Barangay (Captain)</td>
+          <td><strong>Maria Encarlonia L. Gragasin</strong></td>
+          <td>Chief Executive/Barangay Captain</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Luis D. Foronda jr. III</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Mark Anthony D. Corpuz</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Elclarie John P. Pacol</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Victorlevy S. Albano</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Christopher M. Ramirez</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Jeerel-Jan P. Garcia</em></td>
+          <td>Legislative Body/Kagawad</td>
+        </tr>
+        <tr>
+          <td>Barangay Councilor</td>
+          <td><em>Sherwin P. Duco</em></td>
+          <td>Legislative Body/Kagawad</td>
+
+      </table>
+
+      <br>
+
+      <p style="font-size:13px; color:#888; font-family:Arial,sans-serif; font-style:italic;">
+        * This list is based on the recent elections 
+      </p>
+    </div>
+
+    <!-- FACILITIES -->
+    <div class="section" id="facilities">
+      <h2>Facilities &amp; Establishments</h2>
+
+      <p>
+        As the <strong>Poblacion</strong> of Burgos, Barangay Caliguian is home to the most
+        complete set of government and community facilities in the municipality.
+      </p>
+
+      <br>
+
+      <div class="facility-grid">
+        <div class="facility-card">
+          <h4>🏛️ Burgos Municipal Hall</h4>
+          <p>Seat of local government. Houses the Office of the Mayor, Municipal Council, and other government offices serving all 14 barangays of Burgos.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🏥 Rural Health Unit (RHU)</h4>
+          <p>Provides primary healthcare services to residents including medical consultations, immunizations, maternal care, and health programs.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🛒 Public Market</h4>
+          <p>Main trading center of Burgos. Vendors sell fresh produce, fish, meat, dry goods, and other commodities serving the entire municipality.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🏪 Commercial Area</h4>
+          <p>Various sari-sari stores, small businesses, eateries, and service establishments that support the daily needs of residents.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🚒 Fire Station</h4>
+          <p>Bureau of Fire Protection (BFP) station serving the municipality. Responds to fire incidents and other emergency situations.</p>
+        </div>
+        <div class="facility-card">
+          <h4>👮 Police Station (PNP)</h4>
+          <p>Philippine National Police (PNP) station ensuring peace and order in Burgos. Serves all barangays within the municipality.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🏟️ Barangay Hall</h4>
+          <p>Issues barangay clearances, certificates of indigency, barangay IDs, and handles community disputes through Lupong Tagapamayapa.</p>
+        </div>
+        <div class="facility-card">
+          <h4>🌾 Agricultural Office</h4>
+          <p>Provides support to local farmers through programs, technical assistance, and agricultural development initiatives in the municipality.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCHOOLS -->
+    <div class="section" id="schools">
+      <h2>Schools &amp; Educational Institutions</h2>
+
+      <p>
+        Caliguian is the educational center of Burgos, hosting both elementary and secondary
+        schools that serve students from across the municipality.
+      </p>
+
+      <br>
+
+      <table class="info-table">
+        <tr>
+          <td>Burgos National High School</td>
+          <td>
+            <strong>Public Secondary School formerly known as Caliguian National High School</strong><br>
+            Established through <cite>Proclamation No. 550</cite> by President Corazon C. Aquino.
+            Offers Junior High School and Senior High School programs under <abbr title="Department of Education">DepEd</abbr>.
+          </td>
+        </tr>
+        <tr>
+          <td>Burgos Central School</td>
+          <td>
+            <strong>Public Elementary School</strong><br>
+            Provides basic education (Grades 1–6) to children in Caliguian and neighboring barangays.
+            Managed by the Department of Education — Division of Isabela.
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Day Care Center</td>
+          <td>
+            <strong>Early Childhood Education</strong><br>
+            Provides early childhood care and development (ECCD) programs for children ages 3–5
+            managed by the barangay under the DSWD framework.
+            </td>
+        </tr>
+      </table>
+
+      <br>
+
+      <blockquote>
+        "Education is the most powerful weapon which you can use to change the world." — Nelson Mandela
+      </blockquote>
+    </div>
+
+    <!-- CHURCH -->
+    <div class="section" id="church">
+      <h2>Church &amp; Religious Community</h2>
+
+      <p>
+        Faith is a cornerstone of community life in Barangay Caliguian. The barangay is home
+        to its <strong>parish church</strong> which has served as the spiritual home of
+        the people of Burgos for generations.
+      </p>
+
+      <br>
+
+      <table class="info-table">
+        <tr>
+          <td>Parish Church</td>
+          <td>
+            <strong>Saint Joseph Parish Church</strong><br>
+            <em>Burgos, Isabela</em><br>
+            The main Catholic church serving the municipality of Burgos. Holds regular
+            Sunday masses, sacraments, and community religious events throughout the year.
+          </td>
+        </tr>
+        <tr>
+          <td>Religion</td>
+          <td>Predominantly Roman Catholic, with other Christian denominations also present in the community.</td>
+        </tr>
+        <tr>
+          <td>Patron Saint</td>
+          <td>Saint Joseph — celebrated annually with the town fiesta</td>
+        </tr>
+        <tr>
+          <td>Town Fiesta</td>
+          <td>Celebrated annually in honor of the town's patron saint, featuring religious processions, cultural activities, and community gatherings.</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <p>
+        The church plays an important role in the <em>spiritual, cultural, and social life</em>
+        of the community. <strong>Religious gatherings, fiestas, and community celebrations</strong>
+        are central to the identity of Caliguian as a close-knit barangay.
+      </p>
+    </div>
+
+    <!-- DEMOGRAPHICS -->
+    <div class="section" id="demographics">
+      <h2>Demographics &amp; Statistics</h2>
+
+      <p>
+        Caliguian is the <strong>most populous barangay</strong> in Burgos, accounting for
+        <strong>26.59%</strong> of the municipality's total population.
+      </p>
+
+      <br>
+
+      <h3>Population Growth</h3>
+
+      <table class="info-table">
+        <tr>
+          <td>Population (1990)</td>
+          <td>5,506 residents</td>
+        </tr>
+        <tr>
+          <td>Population (2015)</td>
+          <td>6,433 residents</td>
+        </tr>
+        <tr>
+          <td>Population (2020)</td>
+          <td><strong>6,925 residents</strong></td>
+        </tr>
+        <tr>
+          <td>Annual Growth Rate</td>
+          <td>1.56% (2015–2020)</td>
+        </tr>
+        <tr>
+          <td>Total Households (2015)</td>
+          <td>1,570 households</td>
+        </tr>
+        <tr>
+          <td>Average Household Size</td>
+          <td>4.10 members per household</td>
+        </tr>
+        <tr>
+          <td>Share of Burgos Population</td>
+          <td>26.59% — largest barangay</td>
+        </tr>
+        <tr>
+          <td>Largest Age Group</td>
+          <td>5–9 years old (668 individuals)</td>
+        </tr>
+        <tr>
+          <td>Smallest Age Group</td>
+          <td>75–79 years old (72 individuals)</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <h3>Municipality of Burgos — Overview</h3>
+
+      <table class="info-table">
+        <tr>
+          <td>Total Population (2024)</td>
+          <td>26,729 people</td>
+        </tr>
+        <tr>
+          <td>Total Barangays</td>
+          <td>14 barangays</td>
+        </tr>
+        <tr>
+          <td>Population Density</td>
+          <td>370 inhabitants per km²</td>
+        </tr>
+        <tr>
+          <td>Main Livelihood</td>
+          <td>Rice and corn farming — one of the highest producers in Isabela</td>
+        </tr>
+        <tr>
+          <td>Legislative District</td>
+          <td>5th District of Isabela</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- EMERGENCY HOTLINES -->
+    <div class="section" id="hotlines">
+      <h2>Emergency Hotlines</h2>
+
+      <p>
+        In case of emergency, please contact the following hotlines immediately.
+        <strong>Your safety is our priority.</strong>
+      </p>
+
+      <br>
+
+      <table class="hotline-table">
+        <tr>
+          <th>Agency</th>
+          <th>Description</th>
+          <th>Contact Number</th>
+        </tr>
+        <tr>
+          <td>🚨 PNP Emergency Hotline</td>
+          <td>Philippine National Police — nationwide emergency</td>
+          <td>911</td>
+        </tr>
+        <tr>
+          <td>👮 PNP Burgos Station</td>
+          <td>Local police station serving Burgos, Isabela</td>
+          <td>(+63 915 727 1471)</td>
+        </tr>
+        <tr>
+          <td>🚒 Bureau of Fire Protection</td>
+          <td>Fire emergency — BFP Burgos Station</td>
+          <td>(09171253320)</td>
+        </tr>
+        
+        <tr>
+          <td>🚑 Red Cross Isabela</td>
+          <td>Philippine Red Cross — Isabela Chapter</td>
+          <td>(078) 323-3444</td>
+        </tr>
+        <tr>
+          <td>⚡ NDRRMC</td>
+          <td>National Disaster Risk Reduction — emergency</td>
+          <td>8911 or (02) 8911-5061</td>
+        </tr>
+        <tr>
+          <td>📞 Isabela Provincial Capitol</td>
+          <td>Provincial government emergency line</td>
+          <td>(078) 682-1045</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <blockquote>
+        ⚠️ <strong>In case of life-threatening emergencies, dial 911 immediately.</strong>
+        For barangay-level concerns, proceed to the Barangay Hall during office hours:
+        Monday to Friday, 8:00 AM — 5:00 PM.
+      </blockquote>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="section" id="gallery">
+      <h2>Photo Gallery</h2>
+
+      <p>A glimpse of life, places, and events in Barangay Caliguian, Burgos, Isabela:</p>
+
+      <br>
+
+      <div class="gallery">
+        <figure>
+          <img src="brgy_photo1.jpg" alt="Barangay Hall">
+          <figcaption>Barangay Hall — Caliguian</figcaption>
+        </figure>
+        <figure>
+          <img src="brgy_photo2.jpg" alt="Evacuation center">
+          <figcaption>Caliguian Evacuation Center</figcaption>
+        </figure>
+        <figure>
+          <img src="brgy_photo3.jpg" alt="Waste Management">
+          <figcaption>Waste Management</figcaption>
+        </figure>
+        <figure>
+          <img src="brgy_photo4.jpg" alt="School">
+          <figcaption>Burgos National High School</figcaption>
+        </figure>
+        <figure>
+          <img src="brgy_photo5.jpg" alt="school">
+          <figcaption>Burgos Central School</figcaption>
+        </figure>
+        <figure>
+          <img src="brgy_photo6.jpg" alt="Clean up">
+          <figcaption>Clean-up Drive</figcaption>
+        </figure>
+      </div>
+
+      <br>
+
+      <p style="font-size:12px; color:#999; font-family:Arial,sans-serif; font-style:italic;">
+
+      </p>
+    </div>
+
+    <!-- MAP -->
+    <div class="section" id="map">
+      <h2>Location &amp; Map</h2>
+
+      <p>
+        Barangay Caliguian is located in the Municipality of <strong>Burgos, Isabela</strong>,
+        approximately <strong>32 kilometers</strong> southwest of Ilagan City,
+        the provincial capital of Isabela.
+      </p>
+
+      <br>
+
+      <table class="info-table">
+        <tr>
+          <td>Coordinates</td>
+          <td>17.0667° N, 121.6913° E</td>
+        </tr>
+        <tr>
+          <td>Nearby Town (SW)</td>
+          <td>San Manuel — 8 km southwest</td>
+        </tr>
+        <tr>
+          <td>Nearby Town (NE)</td>
+          <td>Quirino — 9 km northeast</td>
+        </tr>
+        <tr>
+          <td>Provincial Capital</td>
+          <td>Ilagan City — 32 km northeast</td>
+        </tr>
+        <tr>
+          <td>National Capital</td>
+          <td>Manila — approximately 413.54 km south</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <div class="map-container">
+        <iframe
+          src="https://maps.google.com/maps?q=Caliguian,+Burgos,+Isabela,+Philippines&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <br>
+
+      <p style="text-align:center; font-family:Arial,sans-serif; font-size:13px;">
+        📍 <a href="https://maps.app.goo.gl/YoPrUTUGjWKhC8oz7" target="_blank" style="color:#8b0000; font-weight:bold;">
+          Open in Google Maps
+        </a>
+      </p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
+      <h2>Contact Information</h2>
+
+      <p>
+        For barangay concerns, service requests, or general inquiries,
+        please contact us through any of the following:
+      </p>
+
+      <br>
+
+      <table class="contact-table">
+        <tr>
+          <td>🏛️ Office Address</td>
+          <td>Barangay Hall, Caliguian (Poblacion), Burgos, Isabela, Philippines</td>
+        </tr>
+        
+ <tr>
+          <td>📘 Facebook Account</td>
+          <td><a href="https://www.facebook.com/barangay.caliguian" target="_blank">Facebook — Barangay Caliguin</a></td>
+        </tr>
+        <tr>
+          <td>🕐 Office Hours</td>
+          <td>Monday to Friday &nbsp;|&nbsp; 8:00 AM — 5:00 PM</td>
+        </tr>
+        <tr>
+          <td>🌐 Municipality</td>
+          <td><a href="https://www.facebook.com/lguburgos3322" target="_blank">LGU Burgos Isabela — Official Page</a></td>
+        </tr>
+        <tr>
+          <td>📍 Region</td>
+          <td>Region II — Cagayan Valley, Luzon, Philippines</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM MARQUEE -->
+  <div class="marquee-bottom">
+    <marquee behavior="scroll" direction="right" scrollamount="4">
+      &nbsp;&nbsp;&nbsp; ✦ Barangay Caliguian — Poblacion, Burgos, Isabela &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Population: 6,925 (2020) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Emergency: 911 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Region II — Cagayan Valley &nbsp;&nbsp;&nbsp; ✦
+    </marquee>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      &copy; 2026 &nbsp;|&nbsp; <strong>Barangay Caliguian (Poblacion)</strong> &nbsp;|&nbsp;
+      Burgos, Isabela &nbsp;|&nbsp; Region II — Cagayan Valley, Philippines
+    </p>
+    <p style="margin-top:6px;">
+      Webpage created by: <strong>Joel T. Reglos</strong> &nbsp;|&nbsp;
+      BSIT 2nd Year &nbsp;|&nbsp; IT-ELEC-3 Final Project &nbsp;|&nbsp;
+      Isabela State University — Roxas Campus
+    </p>
+  </footer>
+
+</body>
+</html>
